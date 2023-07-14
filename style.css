@@ -1,0 +1,30 @@
+body{     
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'AvantGarde CE';
+    letter-spacing: 2px; 
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato';
+}
+.content-heading-area{
+    background-image: url(img/heading-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: -83px;
+}
+:root {
+    --primary-color: #ffcc38;    
+    --secondary-color:#000000;
+}
+.trusted-area-right{
+    width: 422px;
+    height: 472px;
+}
+.best-wishes-area{
+    background-image: url(img/content-1-bg.jpg);
+    background-repeat: no-repeat;
+}
+.testimonial-area{
+    background-image: url(img/content-2-bg.jpg);
+    background-repeat: no-repeat;
+}
