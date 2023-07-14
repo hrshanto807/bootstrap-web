@@ -1,12 +1,23 @@
 body{     
     line-height: 30px;
     font-size: 15px;
-    font-family: 'AvantGarde CE';
+    font-family: 'Lato';
     letter-spacing: 2px; 
+}
+:root {
+    --primary-color: #ffcc38;    
+    --secondary-color:#000000;
 }
 h1, h2, h3, h4, h5, h6, p{
     font-family: 'Lato';
 }
+h2{
+    font-size: 43px;
+}
+p{
+    line-height: normal;
+}
+
 /* header area */
     .header-area-left p{
         margin-top: -15px;
@@ -17,9 +28,29 @@ h1, h2, h3, h4, h5, h6, p{
         padding: auto 10px;        
     }
 /* header area  end*/
+/* main start */
 
 .book-cab-heading{
-    margin-top: 87px;
+    margin-top: 155px;
+}
+.book-cab-heading p{
+    letter-spacing: 17px;
+
+}
+.trusted-cab-area{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 708px;
+    margin-top: -127px;
+}
+.trusted-area-left{
+    margin-top: 156px;
+}
+.trusted-area-right{
+    width: 422px;
+    height: 472px;
+    margin-top: 156px;
+    margin-left: 200px;
 }
 
 .content-heading-area{
@@ -27,14 +58,8 @@ h1, h2, h3, h4, h5, h6, p{
     background-repeat: no-repeat;
     margin-top: -130px;
 }
-:root {
-    --primary-color: #ffcc38;    
-    --secondary-color:#000000;
-}
-.trusted-area-right{
-    width: 422px;
-    height: 472px;
-}
+
+
 .best-wishes-area{
     background-image: url(img/content-1-bg.jpg);
     background-repeat: no-repeat;
@@ -43,3 +68,4 @@ h1, h2, h3, h4, h5, h6, p{
     background-image: url(img/content-2-bg.jpg);
     background-repeat: no-repeat;
 }
+/* main end */
