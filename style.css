@@ -102,10 +102,18 @@ p{
 }
 /* wishes area end */
 
+/* download area */
+.service-content-area-left{
+    margin-left: 160px;
+}
+/* download area */
 /* testimonial area start */
 .testimonial-area{
     background-image: url(img/content-2-bg.jpg);
     background-repeat: no-repeat;
+}
+.testi-content{
+    border-radius: 50px;
 }
 /* testimonial area end */
 /* main end */
