@@ -13,9 +13,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 h2{
     font-size: 43px;
+    margin-top: -15px;
 }
 p{
     line-height: normal;
+   
 }
 
 /* header area */
@@ -29,6 +31,11 @@ p{
     }
 /* header area  end*/
 /* main start */
+.content-heading-area{
+    background-image: url(img/heading-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: -130px;
+}
 
 .book-cab-heading{
     margin-top: 155px;
@@ -37,6 +44,7 @@ p{
     letter-spacing: 17px;
 
 }
+/* trusted area start */
 .trusted-cab-area{
     background-color: var(--primary-color);
     width: 100%;
@@ -52,20 +60,52 @@ p{
     margin-top: 156px;
     margin-left: 200px;
 }
-
-.content-heading-area{
-    background-image: url(img/heading-bg.jpg);
-    background-repeat: no-repeat;
-    margin-top: -130px;
+/* tarrif area start */
+.single-tarrifs-content{
+    width: 370px;
+    height: 424px;
+    background-color: #F5F4F2;
+    margin-top: -60px;
+    
+}
+.single-tarrifs-content h3{
+    padding-top: 125px;
 }
 
+.single-tarrifs-content:hover{
+    background-color: var(--primary-color);    
+}
+.single-tariffs-icon {
+    height: 71px;
+    width: 101px;
+    background-color: #F5F4F2;
+    color: #F5F4F2;
+    rotate: -54deg;
+    margin-left: 320px;
+    margin-top: 7px;
+   
+}
+.single-tariffs-icon:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* taarrifs area end */
 
+/* wishes area start */
 .best-wishes-area{
     background-image: url(img/content-1-bg.jpg);
     background-repeat: no-repeat;
 }
+.wishes-icon i{
+    width: 80px;
+    height: 80px;
+}
+/* wishes area end */
+
+/* testimonial area start */
 .testimonial-area{
     background-image: url(img/content-2-bg.jpg);
     background-repeat: no-repeat;
 }
+/* testimonial area end */
 /* main end */
