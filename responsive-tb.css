@@ -1,5 +1,36 @@
-@media only screen and (max-width:1024px){
-    .container{
+@media only screen and (min-width:640px) and (max-width:992px){
+  h2{
+    font-size: 33px;       
+}
+  .header-area-left{
+    text-align: center;
+}   
+.header-area-right{
+  text-align: center;
+}   
+    .book-cab-img img{
         width: 100%;
+      }
+      .trusted-cab-area{       
+        height: 1300px;
     }
+    .trusted-area-right {
+        margin-top: 126px;
+        margin-left: 60px;
+      }
+    
+    .trusted-area-left h2{
+       font-size: 28px;         
+    }
+    .trusted-area-left{
+      margin-top: 200px;
+  }
+    .trusted-area-left h3{
+      text-align: center;
+  }
+  .service-content-area-left {
+    margin-left: 0;
+  }
+
+
 } 
