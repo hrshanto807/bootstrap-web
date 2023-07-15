@@ -49,7 +49,7 @@ p{
     background-color: var(--primary-color);
     width: 100%;
     height: 708px;
-    margin-top: -127px;
+    margin-top: -175px;
 }
 .trusted-area-left{
     margin-top: 156px;
@@ -57,7 +57,7 @@ p{
 .trusted-area-right{
     width: 422px;
     height: 472px;
-    margin-top: 156px;
+    margin-top: 200px;
     margin-left: 200px;
 }
 /* tarrif area start */
