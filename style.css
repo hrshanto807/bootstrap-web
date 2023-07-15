@@ -95,6 +95,7 @@ p{
 .best-wishes-area{
     background-image: url(img/content-1-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .wishes-icon i{
     width: 80px;

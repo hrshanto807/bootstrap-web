@@ -1,0 +1,36 @@
+@media only screen and (max-width: 640px){
+    .container{
+        width: 100%;
+    } 
+    h2{
+        font-size: 33px;       
+    }
+    .header-area-left{
+        margin-left: 50px;
+    }   
+    .book-cab-heading p {
+        letter-spacing: 9px;
+      }
+      .book-cab-img img{
+        width: 100%;
+      }
+    .trusted-cab-area{       
+        height: 1300px;     
+}
+.trusted-area-left{
+    margin-top: 200px;
+}
+.trusted-area-left h3{
+    margin-left: 156px;
+}
+.trusted-area-right{  
+    margin-top: 90px;
+    margin-left: 15px;
+}
+.service-content-area-left{
+    margin-left: 52px;
+}
+.about-name-area h3{
+    padding-left: 130px;
+}
+}
