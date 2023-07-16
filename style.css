@@ -35,6 +35,7 @@ p{
     background-image: url(img/heading-bg.jpg);
     background-repeat: no-repeat;
     margin-top: -130px;
+    background-size: cover;
 }
 
 .book-cab-heading{
@@ -112,6 +113,7 @@ p{
 .testimonial-area{
     background-image: url(img/content-2-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .testi-content{
     border-radius: 50px;
